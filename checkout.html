@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/responsive/responsibe.css">
+</head>
+<body>
+    <!-- header_part_start -->
+    <section class="full_header_part_start">
+        <div class="full_header_part_one">
+            <div class="container ">
+                <div class="header_top_section py-1">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="header_top_logo pt-1">
+                                <a href="#"><img src="assets/images/logo.svg" alt="" class="img-fluid logo_img_size"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="header_top_brands">
+                                <a href="#" class="btn">Brands</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="header_top_right">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="header_top_search_part input-group pt-1">
+                                            <span class="input-group-text" id="basic-addon1"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                                            <input type="text" class="form-control" placeholder="Search for Product,Brands" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        <!-- search_part_end -->
+                                    </div>
+                                    <!-- one_end -->
+                                    <div class="col-3">
+                                        <div class="header_top_user_account">
+                                            <span><a href="#"><i class="fa-solid fa-user"></i></a></span>
+                                            <p>User Account</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="header_top_card_section">
+                                            <span><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
+                                            <p>User Account</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- header_top_section_end -->
+        </div>
+        </div>
+        <!-- one_end -->
+        <!-- full_header_menu_bar_section_start -->
+        <div class="full_header_menu_bar_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_manu_bar">
+                        <!-- navbar_other -->
+                        <section class="new_navbar">
+                            <nav class="navbar py-2">
+                                <ul class="my-0">
+                                    <li><a href="index.html">Makeup</a></li>
+                                    <li><a href="about.html">Skin</a></li>
+                                    <!-- dropdown_start -->
+                                    <li><a class="dropdown-toggle" href="#">Hair</a>
+                                        <ul class="drop_ul">
+                                            <li class="drop_ul_li"><a href="product_men.html">Shampoo</a></li>
+                                            <li class="drop_ul_li"><a href="#">Conditioner</a></li>
+                                            <li class="drop_ul_li"><a href="#">Hair Oil</a></li>
+                                            <li class="drop_ul_li"><a href="product_men.html">Shampoo</a></li>
+                                            <li class="drop_ul_li"><a href="#">Conditioner</a></li>
+                                            <li class="drop_ul_li"><a href="#">Hair Oil</a></li>                                           
+                                        </ul>
+                                    </li>
+                                    <!-- dropdown_end -->
+                                    <li><a href="attribute.html">Personal Care</a></li>
+                                    <li><a href="#">Mom & Baby</a></li>
+                                    <li><a href="quality.html">Fragnance</a></li>
+                                    <li><a href="compliance.html" class="hd_bg1 hd_text">Undergarments</a></li>
+                                    <li><a href="contact_page.html" class="hd_bg2 hd_text">Home & Hygiene</a></li>
+                                    <li><a href="contact_page.html" class="hd_bg3 hd_text">Buy 1 Get 1</a></li>
+                                    <li><a href="contact_page.html" class="hd_bg4 hd_text">Discount</a></li>
+                                    <li><a href="contact_page.html" class="hd_bg5 hd_text">Men</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                        <!-- navbar_other -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- full_header_menu_bar_section_end -->
+    </section>
+    <!-- header_part_end -->
+    <!-- checkout_page_start -->
+    <section class="checkout_page_start py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="checkout_page_body_details">
+                        <div class="checkout_title_menu_bar">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link fs-5" id="nav-disabled-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-disabled" type="button" role="tab"
+                                        disabled>Checkout</button>
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#checkout2" type="button" role="tab">Your Information</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab">Review Your
+                                        Order</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab">Payment &
+                                        Confirm</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- menu_bar_end -->
+                        <!-- menu_bar_body_start -->
+                        <div class="checkout_kites_menu_bar_body">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade" id="nav-disabled">...</div>
+                                <div class="tab-pane fade show active" id="checkout2">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="login_mobile_number_infor my-4 p-3">
+                                                <p class="checkout_y_info">User information</p>
+                                                <label for="rasel100" class="form-label">Your Mobile Number</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">+88</span>
+                                                    <input type="text" class="form-control" placeholder="017xxxxxxxx"
+                                                        aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                                <a href="#" class="btn">Send OTP</a>
+
+                                                <p class="py-3 checkout_y_email_info">Login Using Email Address</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- your_information_end -->
+                                <div class="tab-pane fade" id="nav-profile">
+                                    <div class="checkout_review_your_oder py-5 px-1">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="checkout_re_y_o_body_details my-2">
+                                                    <h5>Product Total</h5>
+                                                    <p>Total In Cart : 0 item(s)</p>
+                                                    <p>Total Amount : Tk. 0</p>
+                                                </div>
+                                            </div>
+                                            <!-- first_end -->
+                                            <div class="col-md-3">
+                                                <div class="checkout_re_y_o_body_details my-2">
+                                                    <h5>Delivery Cost</h5>
+                                                    <p>Delivery Location: Khulna</p>
+                                                    <p>Delivery Charge: Tk. 150</p>
+                                                </div>
+                                            </div>
+                                            <!-- second_end -->
+                                            <div class="col-md-3">
+                                                <div class="checkout_re_y_o_body_details my-2">
+                                                    <h5>Govt. Tax</h5>
+                                                    <p>Tax No: _______</p>
+                                                    <p>Tax Amount: Tk. __</p>
+                                                </div>
+                                            </div>
+                                            <!--3rd_end -->
+                                            <div class="col-md-3">
+                                                <div class="checkout_re_y_o_body_details my-2">
+                                                    <h5>Discount</h5>
+                                                    <p>Product Discount: Tk.0</p>
+                                                    <p>Coupon Discount: Tk.0</p>
+                                                    <p>Other Discount: 0</p>
+                                                </div>
+                                            </div>
+                                            <!-- four_end -->
+                                        </div>
+                                        <!-- first_row_end -->
+                                        <div class="row">
+                                            <div class="col-4 offset-4">
+                                                <div class="checkout_Order_Total py-3 my-2">
+                                                    <p>Order Total</p>
+                                                    <h4>Tk. 6015</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- second_row_end -->
+                                        <div class="row">
+                                            <div class="col-12 my-2">
+                                               <div class="checkout_Order_Total_btn">
+                                                <a href="#" class="btn"> go back</a>
+                                                <a href="#" class="btn">Continue to payment</a>
+                                               </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact">
+                                    <section class="checkout_payment_confirm">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-4 offset-4 py-4">
+                                                    <div class="checkout_payment_confirm_one">
+                                                        <img src="assets/images/payment.png" alt="" class="img-fluid check_pay_con_img_size">
+                                                        <p>Cash On Delivery</p>
+                                                    </div>
+                                                    <div class="checkout_payment_hr_part">
+                                                        <p>or</p>
+                                                        <hr>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end_first_row -->
+
+                                        </div>
+                                    </section>
+                                    <!-- 2nd_row_end -->
+                                    <section class="checkout_payment_confirm">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-8 col-md-6 offset-md-3 offset-2  py-4">
+                                                   <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="checkout_payment_confirm_one">
+                                                                <img src="assets/images/bkash.png" alt="" class="img-fluid check_pay_con_img_size2">
+                                                                <p>bKash</p>
+                                                            </div>
+                                                        </div>
+                                                        <!-- one_end -->
+                                                        <div class="col-4">
+                                                            <div class="checkout_payment_confirm_one">
+                                                                <img src="assets/images/rocket.png" alt="" class="img-fluid check_pay_con_img_size2">
+                                                                <p>Rocket</p>
+                                                            </div>
+                                                        </div>
+                                                        <!-- two_end -->
+                                                        <div class="col-4">
+                                                            <div class="checkout_payment_confirm_one">
+                                                                <img src="assets/images/nagad.png" alt="" class="img-fluid check_pay_con_img_size2">
+                                                                <p>Nagad</p>
+                                                            </div>
+                                                        </div>
+                                                        <!-- three_end -->
+                                                   </div>
+                                                </div>
+                                            </div>
+                                            <!-- end_first_row -->
+
+                                        </div>
+                                    </section>
+
+                                    <!-- 3rd_row_end -->
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- menu_bar_body_end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- checkout_page_end -->
+ <!-- footer-section_start -->
+    <section class="footer_section_start">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_section_one py-5">
+                        <a href="#">
+                            <img src="assets/images/f_log.svg" alt="" class="img-fluid f_img_size">
+                        </a>
+                      <div class="footer_icon_section py-4">
+                        <span class="px-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+                        <span class="px-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></span>
+                        <span class="px-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                      </div>
+                    </div>
+                </div>
+                <!-- logo_part_end -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_section_two py-4">
+                        <div class="footer_section_title pb-2">
+                            <h5>CONTACT US</h5>
+                        </div>
+                        <!-- title_end -->
+                        <div class="footer_details_section">
+                                <div class="footer_details_icon">
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                                </div>
+                                <!-- icon_end -->
+                                <div class="footer_details_para">
+                                    <p>Corporate Office : House #07, Road #13, Sector #10, Uttara, Dhaka - 1230. Bangladesh.</p>
+                                </div>
+                                <!-- para_end -->
+                        </div>
+                        <div class="footer_details_section">
+                            <div class="footer_details_icon">
+                                <a href="#"><i class="fa-solid fa-mobile"></i></a>
+                            </div>
+                            <!-- icon_end -->
+                            <div class="footer_details_para">
+                                <p>+88 01879356853</p>
+                            </div>
+                            <!-- para_end -->
+                        </div>
+                        <div class="footer_details_section">
+                            <div class="footer_details_icon">
+                                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                            <!-- icon_end -->
+                            <div class="footer_details_para">
+                                <p> info@ruprong.com</p>
+                            </div>
+                            <!-- para_end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- two_part_end -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_section_two py-4">
+                        <div class="footer_section_title pb-2">
+                            <h5>USEFULL LINKS</h5>
+                        </div>
+                        <!-- title_end -->
+                        <div class="footer_details_section">
+                                <div class="footer_details_icon">
+                                    <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                                <!-- icon_end -->
+                                <div class="footer_details_para">
+                                    <a href="#">
+                                        <p>About Us</p>
+                                    </a>
+                                </div>
+                                <!-- para_end -->
+                        </div>
+                        <!-- one_end -->
+                        <div class="footer_details_section">
+                            <div class="footer_details_icon">
+                                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                            <!-- icon_end -->
+                            <div class="footer_details_para">
+                                <a href="#">
+                                    <p>Terms & Conditions</p>
+                                </a>
+                            </div>
+                            <!-- para_end -->
+                        </div>
+                    <!-- two_end -->
+                    <div class="footer_details_section">
+                        <div class="footer_details_icon">
+                            <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <!-- icon_end -->
+                        <div class="footer_details_para">
+                            <a href="#">
+                                <p>Shipping Returns</p>
+                            </a>
+                        </div>
+                        <!-- para_end -->
+                    </div>
+                <!-- three_end -->
+                <div class="footer_details_section">
+                    <div class="footer_details_icon">
+                        <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <!-- icon_end -->
+                    <div class="footer_details_para">
+                        <a href="#">
+                            <p>Store Location</p>
+                        </a>
+                    </div>
+                    <!-- para_end -->
+                </div>
+                <!-- four_end -->
+                    </div>
+                </div>
+                <!-- three_part_end -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_section_two py-4">
+                        <div class="footer_section_title pb-2">
+                            <h5>NEWSLETTER SINGUP</h5>
+                        </div>
+                        <!-- title_end -->
+                        <div class="footer_last_para">
+                            <p>Enter your email below and get informed of our offers, campaigns, new products alers!</p>
+                        </div>
+                        <div class="footer_input">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email......">
+                            <a href="#" class="btn">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer_section_end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+</body>
+</html>
